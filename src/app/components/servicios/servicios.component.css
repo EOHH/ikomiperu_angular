@@ -1,0 +1,45 @@
+/* CSS para estilizar el componente de servicios */
+#services {
+    background-color: #141414; /* Fondo negro para la sección completa */
+    padding: 60px 0;
+}
+
+#services .section-title h2,
+#services .section-title p {
+    color: white; /* Texto blanco para el título y el subtítulo */
+}
+
+#services .icon-box {
+    background-color: #1f1f1f; /* Fondo oscuro para cada caja */
+    color: white; /* Texto blanco para cada caja */
+    transition: transform 0.3s ease; /* Efecto de transición para la caja */
+}
+
+#services .icon-box:hover {
+    transform: translateY(-10px); /* Desplazamiento hacia arriba al pasar el ratón */
+}
+
+#services .icon-box .icon i {
+    color: #e63946; /* Color rojo para los íconos */
+}
+
+#services .icon-box h4 a {
+    color: #e63946; /* Color rojo para los enlaces de los títulos */
+    text-decoration: none; /* Sin subrayado para los enlaces */
+}
+
+#services .icon-box h4 a:hover {
+    color: #f1faee; /* Color blanco para los enlaces al pasar el ratón */
+}
+
+#services .icon-box h4 {
+    display: inline-block;
+    font-size: 1.5rem; /* Tamaño de fuente para resaltar los encabezados */
+    font-weight: bold; /* Negrita para resaltar los encabezados */
+    margin-bottom: 10px; /* Margen inferior para espacio */
+    border-bottom: 2px solid #ffff;
+}
+
+#services .icon-box p {
+    margin-bottom: 0; /* Sin margen inferior para los párrafos */
+}
